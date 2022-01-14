@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .block {
+            height: 30vh;
+            border: 1px solid black;
+        }
+
+        .selected {
+            background-color: rgb(129, 161, 99);
+            border: 1px dotted white;
+        }
+    </style>
+</head>
+<body>
+    <div class="block" onclick="select(this)">Блок 1</div>
+    <div class="block" onclick="select(this)">Блок 2</div>
+    <div class="block" onclick="select(this)">Блок 3</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
